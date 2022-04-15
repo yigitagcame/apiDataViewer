@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require 'app/bootstrap.php';
+
+use App\App;
+
+$app = new App();
+
+return $app->fetchData();
